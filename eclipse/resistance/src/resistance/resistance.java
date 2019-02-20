@@ -14,7 +14,8 @@ public class resistance {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Resistance is futile!!");
+		String text="Resistance is\n \"Futile!!\"";
+		System.out.println(text);
 	}
 
 }
