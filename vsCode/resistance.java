@@ -1,5 +1,5 @@
 
-
+package resistance;
 // This is a comment and
 /*
  *
@@ -9,6 +9,6 @@
 
 public class resistance {
     public static void main(String[] args) {
-        system.out.println("Resistance is Futile!!");
+        System.out.println("Resistance is Futile!!");
     }
 }

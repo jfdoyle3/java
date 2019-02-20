@@ -27,3 +27,5 @@ hs_err_pid*
 .vscode/
 /NetBeans/resistance/nbproject/private/
 /NetBeans/resistance/build/
+/netBeans10/resistance/nbproject/private/
+/netBeans10/resistance/build/
