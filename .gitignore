@@ -25,3 +25,5 @@ hs_err_pid*
 # Directories
 .metadata/
 .vscode/
+/NetBeans/resistance/nbproject/private/
+/NetBeans/resistance/build/
