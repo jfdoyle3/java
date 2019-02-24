@@ -1,14 +1,11 @@
-
 package resistance;
-// This is a comment and
-/*
- *
- * this is also a comment
- *
- */
 
+/**
+ * resistance
+ */
 public class resistance {
+
     public static void main(String[] args) {
-        System.out.println("Resistance is Futile!!");
+        System.out.println("Resistance is Futile");
     }
 }
