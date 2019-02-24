@@ -6,8 +6,10 @@ public class oopTest {
 		oop waterBottle= new oop();
 		waterBottle.addWater(100);
 		waterBottle.drinkWater(20);
-		System.out.println("Your remaining water level is: "+waterBottle.getWater());
-		oop waterBottle= new oop(5);
+		System.out.println("Your waterBottle water level is: "+waterBottle.getWater());
+		oop gallonJug=new oop();
+		gallonJug.addWater(10000);
+		gallonJug.drinkWater(10);
+		System.out.println("Your Gallon Jug water level is: "+gallonJug.getWater());
 	}
-
 }
