@@ -1,15 +1,15 @@
 package inheritanceDemo;
 
-public class checkingFees extends CheckingAccount {
+public class CheckingAccountFees extends CheckingAccount {
 
 	private final double FEES=20.00;
 	
-	public checkingFees()
+	public CheckingAccountFees()
 	{
 		super();
 	}
 	
-	public  checkingFees(String owner, double initialBalance, int checkCount)
+	public  CheckingAccountFees(String owner, double initialBalance, int checkCount)
 	{
 		super(owner, initialBalance, checkCount);
 	}

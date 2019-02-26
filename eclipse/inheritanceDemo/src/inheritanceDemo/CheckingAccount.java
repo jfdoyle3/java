@@ -21,13 +21,17 @@ public class CheckingAccount extends BankAccount {
 		super(owner,initialBalance); //  super()  must be the first line in the constructor. errors out if not.
 		this.checkCount=checkCount;
 	}
-	public void useCheck() 
+	public void UseCheck() 
 	{
 		checkCount--;
 	}
-	public void getCheck()
+	public void addCheck()
 	{
 		checkCount++;
+	}
+	public int getChecks()
+	{
+		return checkCount;
 	}
 
 }

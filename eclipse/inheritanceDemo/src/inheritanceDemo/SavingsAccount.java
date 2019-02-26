@@ -37,7 +37,10 @@ public class SavingsAccount extends BankAccount {
 		this.Deposit(addInterest);
 	}
 	
-	
+	public double getiRate()
+	{
+		return INTEREST_RATE;
+	}
 	
 	
 	
