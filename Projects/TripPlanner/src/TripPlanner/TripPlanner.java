@@ -10,10 +10,6 @@ import java.util.Scanner;
  */
 public class TripPlanner {
 
-	
-	/**
-	 * @param args
-	 */
 	static Scanner input=new Scanner(System.in);
 	
 	public static void main(String[] args) {
@@ -22,9 +18,8 @@ public class TripPlanner {
 		Cost();
 		Time();
 		sqArea();
-		
+	}		
 
-	}
 	public static void  Greet()
 	{
 		System.out.println("Vacation planner");
@@ -36,6 +31,7 @@ public class TripPlanner {
 		System.out.print("Great!"+destination+" sounds like a great trip!");
 		methodBreak();
 	}
+	
 	public static void Cost() {
 		System.out.print("How many days are you going to spend traveling?");
 		int days=input.nextInt();
@@ -56,10 +52,11 @@ public class TripPlanner {
 		System.out.println("Your total budget in "+currencySymbol+" is "+fCurrency+" "+currencySymbol+", which perday is "+dailyFSpend+" "+currencySymbol);		
 		methodBreak();
 	}
+	
 	public static void Time() {
 		int midnight=0;
 		int noon=12;
-		
+	
 		System.out.print("What is the time difference, in hours, between your home and your destiniation?");
 		int tZone=input.nextInt();
 		int hTime=tZone+noon;
