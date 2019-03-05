@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Vechicles;
+package Vehicles;
 
 /**
  * @author Jim
