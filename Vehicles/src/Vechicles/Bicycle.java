@@ -13,14 +13,18 @@ public class Bicycle {
 
 	public Bicycle()
 	{
-		color="Blue";
-		type="Mountain";
+	
 	}
 	
 	public Bicycle(String color, String type)
 	{
 		this.color=color;
 		this.type=type;
+		
+		if (color.equals("Grey"))
+		{
+			System.out.println("Awesome Color");
+		}
 		
 	}
 

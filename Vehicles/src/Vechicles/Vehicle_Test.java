@@ -15,7 +15,7 @@ public class Vehicle_Test {
 	public static void main(String[] args)
 	{
 	
-		Bicycle bike=new Bicycle("Green","Street");
+		Bicycle bike=new Bicycle("Grey","Street");
 		System.out.println(bike.color+","+bike.type);
 	}
 
