@@ -11,21 +11,12 @@ public class Vehicle_Test {
 
 	private static Scanner input;
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args)
 	{
 		Bicycle bike=new Bicycle();
 		
 		input = new Scanner(System.in);
-		System.out.println("1) Sell Bike");
-		int mChoice=input.nextInt();
-		while(mChoice !=0) {
-			if (mChoice==1) {
-				
-			}
-		}
+
 		System.out.print("Sold a bike for: $");
 		int price=input.nextInt();
 		
@@ -34,10 +25,11 @@ public class Vehicle_Test {
 		
 		bike.Sell(price, qty);
 		
+		System.out.print("Profit: ");
 		System.out.println(bike.getTill());
+		System.out.print("Stock: ");
 		System.out.println(bike.getStock());
 		
 		
 	}
-
 }

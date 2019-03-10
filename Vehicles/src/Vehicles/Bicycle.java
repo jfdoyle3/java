@@ -7,13 +7,11 @@ package Vehicles;
  *
  */
 public class Bicycle {
-	String color;
-	String type;
-	int cost;
-	int count;
-	int profit;
-	
-	int stock=1000;
+	private String color;
+	private String type;
+	private int profit;
+	private String serialNumber;
+	private int stock=1000;
 
 	public Bicycle()
 	{
@@ -34,6 +32,10 @@ public class Bicycle {
 		profit += cost;
 		}
 		return profit;				
+	}
+	public String serialNumber(String sNumber)
+	{
+		return serialNumber;
 	}
 	
 	public int getStock()
